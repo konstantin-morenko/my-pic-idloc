@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+## Моя структура IdLoc для микроконтроллеров Microchip Pic(r)
 
-You can use the [editor on GitHub](https://github.com/konstantin-morenko/my-pic-idloc/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Предпосылка
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Я пишу достаточное количество программ и со временем становится трудно в них разобраться.  И уж тем более в том, в каком микроконтроллере записана какая версия программы.
 
-### Markdown
+Поскольку каждый байт в микроконтроллерах среднего семейства реализован только в нижней половине, то диапазон значений для них составляет 0-15.  И таких байт четыре: 0-3.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Механизм назначения IdLoc
 
-```markdown
-Syntax highlighted code block
+1. Для новых программ
+2. При изменении любой части номера версии (согласно https://semver.org/, с обязательным назначением тега вида `vX.Y.Z`)
+3. Для вариантов сборок (например, общие катоды и аноды или варианты для разных марок микроконтроллеров)
 
-# Header 1
-## Header 2
-### Header 3
+Можно было бы разделить четыре байта на части: код программы, мажорный номер, минорный номер, номер патча, но большая часть из них никогда не будет израсходована, а количество программ тогда будет ограничено 16 штуками.  Уже сейчас этого недостаточно.
 
-- Bulleted
-- List
+Полное количество бит позволяет хранить 2 полных байта, что составляет 65536 значений.
 
-1. Numbered
-2. List
+Номера назначаются по порядку.  Это похоже на серийные номера.
 
-**Bold** and _Italic_ and `Code` text
+### Перечень IdLoc
 
-[Link](url) and ![Image](src)
-```
+Ссылка в графе "Программа" показывает на репозитарий программы, а ссылка в графе "Версия" — на тег конкретной версии.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/konstantin-morenko/my-pic-idloc/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<table>
+	<thead>
+		<tr>
+			<td>IdLoc0</td>
+			<td>IdLoc1</td>
+			<td>IdLoc2</td>
+			<td>IdLoc3</td>
+			<td>Программа</td>
+			<td>Версия</td>
+			<td>Контроллер</td>
+			<td>Сборка</td>
+			<td>Примечания</td>
+		</tr>
+	</thead>
+	<tbody>
+	{% for id in site.data.idlocs %}
+		<tr>
+			<td>{{ id.idloc0 }}</td>
+			<td>{{ id.idloc1 }}</td>
+			<td>{{ id.idloc2 }}</td>
+			<td>{{ id.idloc3 }}</td>
+			<td>{{ id.program }}</td>
+			<td>{{ id.ver }}</td>
+			<td>{{ id.chip }}</td>
+			<td>{{ id.build }}</td>
+			<td>{{ id.notes }}</td>
+		</tr>
+	{% endfor %}
+	</tbody>
+</table>

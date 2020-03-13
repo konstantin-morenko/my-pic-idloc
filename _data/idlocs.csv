@@ -1,0 +1,3 @@
+idloc0,idloc1,idloc2,idloc3,program,ver,chip,build,notes
+0,0,0,0,Temp,0.1.0,PIC16F628A,COMMON=CATHODES,-
+0,0,0,1,Temp2,0.2.0,PIC16F648,-,-
