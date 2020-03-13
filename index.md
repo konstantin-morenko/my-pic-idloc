@@ -59,6 +59,7 @@ IdLoc `0 0 0 0` заререзвирован в качестве шаблона 
 	<thead>
 		<tr>
 			<td>IdLoc30</td>
+			<td>Дата</td>
 			<td>Программа</td>
 			<td>Версия</td>
 			<td>Контроллер</td>
@@ -70,6 +71,7 @@ IdLoc `0 0 0 0` заререзвирован в качестве шаблона 
 	{% for id in site.data.idlocs %}
 		<tr>
 			<td><a id="{{ id.idloc30}}">{{ id.idloc30 }}</a></td>
+			<td>{{ id.date }}</td>
 			<td><a href="{{ id.repo }}">{{ id.program }}</a></td>
 			<td><a href="{{ id.tag }}">{{ id.ver }}</a></td>
 			<td>{{ id.chip }}</td>
