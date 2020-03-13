@@ -43,8 +43,8 @@
 			<td>{{ id.idloc1 }}</td>
 			<td>{{ id.idloc2 }}</td>
 			<td>{{ id.idloc3 }}</td>
-			<td>{{ id.program }}</td>
-			<td>{{ id.ver }}</td>
+			<td><a href="{{ id.repo }}">{{ id.program }}</a></td>
+			<td><a href="{{ id.tag }}">{{ id.ver }}</a></td>
 			<td>{{ id.chip }}</td>
 			<td>{{ id.build }}</td>
 			<td>{{ id.notes }}</td>
