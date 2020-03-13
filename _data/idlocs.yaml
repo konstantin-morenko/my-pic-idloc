@@ -1,4 +1,4 @@
-- idloc30: 0000
+- idloc30: 0 0 0 0
   program: Temp
   repo: http://example.com
   ver: 0.1.0
@@ -7,7 +7,7 @@
   build: COMMON=CATHODES
   notes:
 
-- idloc30: 0001
+- idloc30: 0 0 0 1
   program: Temp2
   repo: http://example.com
   ver: 0.2.0
