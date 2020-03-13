@@ -43,6 +43,9 @@
 
 ### Перечень IdLoc
 
+В перечне IdLoc для каждого заданы якоря в том же виде, в каком они
+представлены в поле IdLoc30.
+
 Значения в IdLoc представлены в шестнадцатеричном формате, IdLoc3
 следует первым, IdLoc0 — последним.
 
@@ -55,7 +58,7 @@ IdLoc `0 0 0 0` заререзвирован в качестве шаблона 
 <table>
 	<thead>
 		<tr>
-			<td>IdLoc3-0</td>
+			<td>IdLoc30</td>
 			<td>Программа</td>
 			<td>Версия</td>
 			<td>Контроллер</td>
@@ -66,7 +69,7 @@ IdLoc `0 0 0 0` заререзвирован в качестве шаблона 
 	<tbody>
 	{% for id in site.data.idlocs %}
 		<tr>
-			<td>{{ id.idloc30 }}</td>
+			<td><a id="{{ id.idloc30}}">{{ id.idloc30 }}</a></td>
 			<td><a href="{{ id.repo }}">{{ id.program }}</a></td>
 			<td><a href="{{ id.tag }}">{{ id.ver }}</a></td>
 			<td>{{ id.chip }}</td>
