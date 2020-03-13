@@ -70,7 +70,8 @@ IdLoc `0 0 0 0` заререзвирован в качестве шаблона 
 	<tbody>
 	{% for id in site.data.idlocs %}
 		<tr>
-			<td><a id="{{ id.idloc30}}">{{ id.idloc30 }}</a></td>
+			{% assign idloc = {{ id.idloc30 }} | split: " " | join: "-" %}
+			<td><a id="{{ idloc}}">{{ idloc }}</a></td>
 			<td>{{ id.date }}</td>
 			<td><a href="{{ id.repo }}">{{ id.program }}</a></td>
 			<td><a href="{{ id.tag }}">{{ id.ver }}</a></td>
