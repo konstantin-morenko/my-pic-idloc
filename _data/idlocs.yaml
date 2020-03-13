@@ -1,0 +1,17 @@
+- idloc30: 0000
+  program: Temp
+  repo: http://example.com
+  ver: 0.1.0
+  tag: http://example.com/temp/v0.1.0
+  chip: PIC16F628A
+  build: COMMON=CATHODES
+  notes: -
+
+- idloc30: 0001
+  program: Temp2
+  repo: http://example.com
+  ver: 0.2.0
+  tag: http://example.com/temp2/v0.2.0
+  chip: PIC16F628A
+  build: -
+  notes: -
