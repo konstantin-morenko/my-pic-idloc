@@ -5,7 +5,7 @@
   tag: http://example.com/temp/v0.1.0
   chip: PIC16F628A
   build: COMMON=CATHODES
-  notes: -
+  notes:
 
 - idloc30: 0001
   program: Temp2
@@ -13,5 +13,5 @@
   ver: 0.2.0
   tag: http://example.com/temp2/v0.2.0
   chip: PIC16F628A
-  build: -
-  notes: -
+  build:
+  notes:
