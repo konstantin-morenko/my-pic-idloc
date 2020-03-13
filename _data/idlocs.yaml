@@ -1,4 +1,5 @@
 - idloc30: 0-0-0-0
+  state:
   date: 2000-01-01
   program: Example
   repo: http://example.com
