@@ -69,6 +69,10 @@
 IdLoc `0 0 0 0` зарезервирован в качестве шаблона в файле
 `_data/idlocs.yaml` и используется для начальной инициализации IdLoc.
 
+{% assign last = site.data.idlocs | last %}
+
+Последний зарегистрированный IdLoc {{ last.idloc30 }}
+
 <table>
 	<thead>
 		<tr>
