@@ -9,3 +9,90 @@
   build:
   notes:
 
+- idloc30: 0-0-0-1
+  state:
+  date: 2014-09-26
+  program: motometer
+  repo: http://example.com
+  ver: 1.0.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F628A
+  build:
+  notes:
+
+- idloc30: 0-0-0-2
+  state: 0-0-0-4
+  date: 2014-09-26
+  program: clock_8x8
+  repo: http://example.com
+  ver: 1.0.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F886
+  build:
+  notes:
+
+- idloc30: 0-0-0-3
+  state:
+  date: 2014-09-26
+  program: winding_machine
+  repo: http://example.com
+  ver: 1.0.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F877
+  build:
+  notes:
+
+- idloc30: 0-0-0-4
+  state: 0-0-0-5
+  date: 2014-10-29
+  program: clock_8x8
+  repo: http://example.com
+  ver: 1.1.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F886
+  build:
+  notes:
+
+- idloc30: 0-0-0-5
+  state: 0-0-0-8
+  date: 2014-11-02
+  program: clock_8x8
+  repo: http://example.com
+  ver: 1.2.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F886
+  build:
+  notes:
+
+- idloc30: 0-0-0-6
+  state:
+  date: 2015-01-17
+  program: freq_counter
+  repo: http://example.com
+  ver: 1.0.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F628A
+  build:
+  notes:
+
+- idloc30: 0-0-0-7
+  state: 0-0-0-8
+  date: 2015-05-11
+  program: temp_sensor_3
+  repo: http://example.com
+  ver: 1.0.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F648A
+  build:
+  notes:
+
+- idloc30: 0-0-0-8
+  state:
+  date: 2015-12-20
+  program: clock_8x8
+  repo: http://example.com
+  ver: 1.4.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F886
+  build:
+  notes:
