@@ -1,5 +1,5 @@
 - idloc30: 0-0-0-0
-  state:
+  state: ""
   date: 2000-01-01
   program: Example
   repo: http://example.com
@@ -10,12 +10,12 @@
   notes:
 
 - idloc30: 0-0-0-1
-  state:
+  state: ""
   date: 2014-09-26
   program: motometer
-  repo: http://example.com
+  repo: ""
   ver: 1.0.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F628A
   build:
   notes:
@@ -24,20 +24,20 @@
   state: 0-0-0-4
   date: 2014-09-26
   program: clock_8x8
-  repo: http://example.com
+  repo: ""
   ver: 1.0.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F886
   build:
   notes:
 
 - idloc30: 0-0-0-3
-  state:
+  state: ""
   date: 2014-09-26
   program: winding_machine
-  repo: http://example.com
+  repo: ""
   ver: 1.0.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F877
   build:
   notes:
@@ -46,9 +46,9 @@
   state: 0-0-0-5
   date: 2014-10-29
   program: clock_8x8
-  repo: http://example.com
+  repo: ""
   ver: 1.1.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F886
   build:
   notes:
@@ -57,20 +57,20 @@
   state: 0-0-0-8
   date: 2014-11-02
   program: clock_8x8
-  repo: http://example.com
+  repo: ""
   ver: 1.2.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F886
   build:
   notes:
 
 - idloc30: 0-0-0-6
-  state:
+  state: ""
   date: 2015-01-17
   program: freq_counter
-  repo: http://example.com
+  repo: ""
   ver: 1.0.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F628A
   build:
   notes:
@@ -79,31 +79,31 @@
   state: 0-0-0-8
   date: 2015-05-11
   program: temp_sensor_3
-  repo: http://example.com
+  repo: ""
   ver: 1.0.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F648A
   build:
   notes:
 
 - idloc30: 0-0-0-8
-  state:
+  state: ""
   date: 2015-12-20
   program: clock_8x8
-  repo: http://example.com
+  repo: ""
   ver: 1.4.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F886
   build:
   notes:
 
 - idloc30: 0-0-0-9
-  state:
+  state: ""
   date: 2020-04-29
   program: capacity-level-meter
   repo: https://github.com/konstantin-morenko/capacity-level-meter
   ver: 0.1.0
-  tag: http://example.com/v0.1.0
+  tag: ""
   chip: PIC16F886
   build:
   notes:

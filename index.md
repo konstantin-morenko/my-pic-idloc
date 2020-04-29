@@ -96,8 +96,19 @@ IdLoc `0 0 0 0` зарезервирован в качестве шаблона 
 				{% endunless %}
 			</td>
 			<td>{{ id.date }}</td>
-			<td><a href="{{ id.repo }}">{{ id.program }}</a></td>
-			<td><a href="{{ id.tag }}">{{ id.ver }}</a></td>
+			<td>
+				{% unless id.repo == "" %}
+					<a href="{{ id.repo }}">{{ id.program }}</a></td>
+				{% else %}
+					{{ id.program }}
+				{% endunless %}
+			<td>
+				{% unless id.tag == "" %}
+					<a href="{{ id.tag }}">{{ id.ver }}</a>
+				{% else %}
+					{{ id.ver }}
+				{% endunless %}
+			</td>
 			<td>{{ id.chip }}</td>
 			<td>{{ id.build }}</td>
 			<td>{{ id.notes }}</td>
