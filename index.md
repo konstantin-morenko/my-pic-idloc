@@ -89,7 +89,7 @@ IdLoc `0 0 0 0` зарезервирован в качестве шаблона 
 	<tbody>
 	{% for id in site.data.idlocs %}
 		<tr>
-			<td><a id="{{ id.idloc30 }}">{{ id.idloc30 }}</a></td>
+			<td><a id="{{ id.idloc30 }}"></a>{{ id.idloc30 }}</td>
 			<td>
 				{% unless id.state == "" %}
 					<a href="#{{ id.state }}">{{ id.state }}</a>
