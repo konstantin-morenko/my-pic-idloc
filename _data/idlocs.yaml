@@ -96,3 +96,14 @@
   chip: PIC16F886
   build:
   notes:
+
+- idloc30: 0-0-0-9
+  state:
+  date: 2020-04-29
+  program: capacity-level-meter
+  repo: https://github.com/konstantin-morenko/capacity-level-meter
+  ver: 0.1.0
+  tag: http://example.com/v0.1.0
+  chip: PIC16F886
+  build:
+  notes:
