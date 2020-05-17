@@ -73,6 +73,8 @@ IdLoc `0 0 0 0` зарезервирован в качестве шаблона 
 
 Последний зарегистрированный IdLoc {{ last.idloc30 }}
 
+Зеленым в таблице выделены последние версии.
+
 <table>
 	<thead>
 		<tr>
@@ -88,7 +90,11 @@ IdLoc `0 0 0 0` зарезервирован в качестве шаблона 
 	</thead>
 	<tbody>
 	{% for id in site.data.idlocs %}
+		{% if id.state == "" %}
+		<tr style="background-color: LightGreen">
+		{% else %}
 		<tr>
+		{% endif %}
 			<td><a id="{{ id.idloc30 }}"></a>{{ id.idloc30 }}</td>
 			<td>
 				{% unless id.state == "" %}
