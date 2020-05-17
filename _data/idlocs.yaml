@@ -1,14 +1,3 @@
-- idloc30: 0-0-0-0
-  state: ""
-  date: 2000-01-01
-  program: Example
-  repo: http://example.com
-  ver: 0.1.0
-  tag: http://example.com/v0.1.0
-  chip: PIC16F628A
-  build:
-  notes:
-
 - idloc30: 0-0-0-1
   state: ""
   date: 2014-09-26
