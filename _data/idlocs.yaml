@@ -24,9 +24,9 @@
   state: 0-0-0-4
   date: 2014-09-26
   program: clock_8x8
-  repo: ""
+  repo: https://github.com/konstantin-morenko/clock-4x8-4x8
   ver: 1.0.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/clock-4x8-4x8/releases/tag/v1.0
   chip: PIC16F886
   build:
   notes:
@@ -46,9 +46,9 @@
   state: 0-0-0-5
   date: 2014-10-29
   program: clock_8x8
-  repo: ""
+  repo: https://github.com/konstantin-morenko/clock-4x8-4x8
   ver: 1.1.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/clock-4x8-4x8/releases/tag/v1.1
   chip: PIC16F886
   build:
   notes:
@@ -57,9 +57,9 @@
   state: 0-0-0-8
   date: 2014-11-02
   program: clock_8x8
-  repo: ""
+  repo: https://github.com/konstantin-morenko/clock-4x8-4x8
   ver: 1.2.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/clock-4x8-4x8/releases/tag/v1.2
   chip: PIC16F886
   build:
   notes:
@@ -90,11 +90,11 @@
   state: ""
   date: 2015-12-20
   program: clock_8x8
-  repo: ""
+  repo: https://github.com/konstantin-morenko/clock-4x8-4x8
   ver: 1.4.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/clock-4x8-4x8/releases/tag/v1.4
   chip: PIC16F886
-  build:
+  build: ANODES_MASK=0x0f
   notes:
 
 - idloc30: 0-0-0-9
