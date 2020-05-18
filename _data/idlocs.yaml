@@ -2,9 +2,9 @@
   state: ""
   date: 2014-09-26
   program: motometer
-  repo: ""
+  repo: https://github.com/konstantin-morenko/motometer
   ver: 1.0.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/motometer/releases/tag/v1.0
   chip: PIC16F628A
   build:
   notes:
