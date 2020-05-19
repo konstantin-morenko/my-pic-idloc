@@ -24,9 +24,9 @@
   state: ""
   date: 2014-09-26
   program: winding_machine
-  repo: ""
+  repo: https://github.com/konstantin-morenko/winding-machine
   ver: 1.0.0
-  tag: ""
+  tag: https://github.com/konstantin-morenko/winding-machine/releases/tag/v1.0
   chip: PIC16F877
   build:
   notes:
