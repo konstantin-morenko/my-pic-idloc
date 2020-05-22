@@ -68,10 +68,10 @@
   state: 0-0-0-8
   date: 2015-05-11
   program: temp_sensor_3
-  repo: ""
-  ver: 1.0.0
-  tag: ""
-  chip: PIC16F648A
+  repo: https://github.com/konstantin-morenko/temp-sensor-3
+  ver: 1.0.1
+  tag: https://github.com/konstantin-morenko/temp-sensor-3/releases/tag/v1.0.1
+  chip: PIC16F628A
   build:
   notes:
 
